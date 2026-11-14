@@ -39,7 +39,7 @@ Each session pairs a clear explanation of the underlying ideas with small, pract
 
 **This is the student-facing course repository. Materials will be published one session at a time, following the class schedule.** The complete set of notebooks will **not** be uploaded in advance.
 
-At the moment, **the course README is the only published material in this repository**. Session notebooks will appear here as they are released. The session outline below is a syllabus, not a download list.
+**Session 01 is now available in English and Persian.** Later notebooks will appear here only when their sessions are released. The session outline below shows links only for published materials.
 
 ### What Makes This Course Different
 
@@ -97,6 +97,8 @@ flowchart LR
 > **Release policy:** The topics are listed for planning. Notebook links will be added **only when that week's session is published**.
 
 ### Session 01 — Introduction to AI and Intelligent Agents
+
+**Available notebooks:** [English](session_01_ai_agents.ipynb) · [فارسی (Persian)](persian_notebooks/session_01_ai_agents.ipynb)
 
 > What makes a system an intelligent agent, and how can we measure its behavior?
 
@@ -368,7 +370,7 @@ jupyter lab
 3. Open the notebook in JupyterLab or VS Code.
 4. Run the cells in order, make a prediction, and change one assumption to see what happens.
 
-> **Note:** There are **no student notebooks published yet**. Notebook links and any session-specific setup notes will be added as the course progresses.
+> **Now available:** Session 01 in [English](session_01_ai_agents.ipynb) and [Persian](persian_notebooks/session_01_ai_agents.ipynb). Future notebook links will be added as each session is released.
 
 ---
 
@@ -380,19 +382,22 @@ The Spring 2026 course used a straightforward, student-friendly layout. This rep
 
 ```text
 .
-└── README.md
-```
-
-**Planned layout as the semester progresses (not yet published):**
-
-```text
-.
 ├── README.md
 ├── session_01_ai_agents.ipynb
-├── session_02_graph_search.ipynb
-├── session_03_constraints.ipynb
-├── ...
-└── session_16_capstone.ipynb
+└── persian_notebooks/
+    └── session_01_ai_agents.ipynb
+```
+
+**Planned additions as the semester progresses (not yet published):**
+
+```text
+session_02_graph_search.ipynb
+session_03_constraints.ipynb
+...
+session_16_capstone.ipynb
+persian_notebooks/
+    session_02_graph_search.ipynb
+    ...
 ```
 
 Only released files will be present. Future filenames above illustrate the format; they are **not** links to hidden course materials.
@@ -403,7 +408,7 @@ Only released files will be present. Future filenames above illustrate the forma
 
 | Session | Topic | Notebook |
 |:---:|---|:---:|
-| **01** | Introduction to AI and Intelligent Agents | Coming soon |
+| **01** | Introduction to AI and Intelligent Agents | [English](session_01_ai_agents.ipynb) · [فارسی](persian_notebooks/session_01_ai_agents.ipynb) |
 | **02** | Uninformed and Informed Search | Coming soon |
 | **03** | Constraint Satisfaction Problems | Coming soon |
 | **04** | Adversarial Search and Game Playing | Coming soon |
