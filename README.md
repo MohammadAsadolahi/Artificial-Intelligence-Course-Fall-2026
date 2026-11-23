@@ -39,7 +39,7 @@ Each session pairs a clear explanation of the underlying ideas with small, pract
 
 **This is the student-facing course repository. Materials will be published one session at a time, following the class schedule.** The complete set of notebooks will **not** be uploaded in advance.
 
-**Sessions 01–03 are now available in English and Persian.** Later notebooks will appear here only when their sessions are released. The session outline below shows links only for published materials.
+**Sessions 01–04 are now available in English and Persian.** Later notebooks will appear here only when their sessions are released. The session outline below shows links only for published materials.
 
 ### What Makes This Course Different
 
@@ -127,6 +127,8 @@ flowchart LR
 - Constraint propagation and why it helps
 
 ### Session 04 — Adversarial Search and Game Playing
+
+**Available notebooks:** [English](session_04_adversarial_search.ipynb) · [فارسی (Persian)](persian_notebooks/session_04_adversarial_search.ipynb)
 
 > Choose actions when another player is trying to stop you.
 
@@ -374,7 +376,7 @@ jupyter lab
 3. Open the notebook in JupyterLab or VS Code.
 4. Run the cells in order, make a prediction, and change one assumption to see what happens.
 
-> **Now available:** Session 01 ([English](session_01_ai_agents.ipynb) · [Persian](persian_notebooks/session_01_ai_agents.ipynb)), Session 02 ([English](session_02_graph_search.ipynb) · [Persian](persian_notebooks/session_02_graph_search.ipynb)), and Session 03 ([English](session_03_constraints.ipynb) · [Persian](persian_notebooks/session_03_constraints.ipynb)). Future notebook links will be added as each session is released.
+> **Now available:** Session 01 ([English](session_01_ai_agents.ipynb) · [Persian](persian_notebooks/session_01_ai_agents.ipynb)), Session 02 ([English](session_02_graph_search.ipynb) · [Persian](persian_notebooks/session_02_graph_search.ipynb)), Session 03 ([English](session_03_constraints.ipynb) · [Persian](persian_notebooks/session_03_constraints.ipynb)), and Session 04 ([English](session_04_adversarial_search.ipynb) · [Persian](persian_notebooks/session_04_adversarial_search.ipynb)). Future notebook links will be added as each session is released.
 
 ---
 
@@ -390,21 +392,23 @@ The Spring 2026 course used a straightforward, student-friendly layout. This rep
 ├── session_01_ai_agents.ipynb
 ├── session_02_graph_search.ipynb
 ├── session_03_constraints.ipynb
+├── session_04_adversarial_search.ipynb
 └── persian_notebooks/
     ├── session_01_ai_agents.ipynb
     ├── session_02_graph_search.ipynb
-    └── session_03_constraints.ipynb
+    ├── session_03_constraints.ipynb
+    └── session_04_adversarial_search.ipynb
 ```
 
 **Planned additions as the semester progresses (not yet published):**
 
 ```text
-session_04_adversarial_search.ipynb
 session_05_logic.ipynb
+session_06_bayesian_reasoning.ipynb
 ...
 session_16_capstone.ipynb
 persian_notebooks/
-    session_04_adversarial_search.ipynb
+    session_05_logic.ipynb
     ...
 ```
 
@@ -419,7 +423,7 @@ Only released files will be present. Future filenames above illustrate the forma
 | **01** | Introduction to AI and Intelligent Agents | [English](session_01_ai_agents.ipynb) · [فارسی](persian_notebooks/session_01_ai_agents.ipynb) |
 | **02** | Uninformed and Informed Search | [English](session_02_graph_search.ipynb) · [فارسی](persian_notebooks/session_02_graph_search.ipynb) |
 | **03** | Constraint Satisfaction Problems | [English](session_03_constraints.ipynb) · [فارسی](persian_notebooks/session_03_constraints.ipynb) |
-| **04** | Adversarial Search and Game Playing | Coming soon |
+| **04** | Adversarial Search and Game Playing | [English](session_04_adversarial_search.ipynb) · [فارسی](persian_notebooks/session_04_adversarial_search.ipynb) |
 | **05** | Knowledge Representation and Logical Inference | Coming soon |
 | **06** | Probability and Bayesian Reasoning | Coming soon |
 | **07** | Decision-Making with MDPs | Coming soon |
